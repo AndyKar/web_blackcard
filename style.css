@@ -1,0 +1,789 @@
+/*
+  Theme Name: 
+  Theme URI: 
+  Version: 
+  Description: 
+  Author: 
+  Author URI: 
+  Created Date: 14/07/2017
+ 
+*/
+@font-face {
+    font-family: OpenSans; 
+    src: url(./fonts/OpenSans.ttf);
+}
+@font-face {
+    font-family: Lumberjack; 
+    src: url(./fonts/Lumberjack.ttf);
+	Lumberjack.ttf
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  
+}
+body h3{
+	color: #7a1602;
+	font-size: 28px;
+	font-family: Lumberjack;
+    font-weight: 400;
+    line-height: 1.1
+}
+body p{
+	color: #000000;
+	font-size: 16px;
+	font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+h3{
+	font-family: Open Sans, sans-serif;
+	
+
+}
+tr, th, td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle;
+  
+}
+div{
+	/*border:1px solid red!important;*/
+}
+
+
+footer, header, section {
+  display: block;
+}
+
+body {
+	font-family: OpenSans, sans-serif;
+	background: url(http://blackcard.by/images/bg-light-4863.png) repeat;
+	/*background: #e7e8ed!important;*/
+  
+}
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}
+.pad0{
+	position: relative;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+.head{
+	 height: auto;
+	 text-align: center;
+}
+.img-center{
+	margin: 0px auto 0;
+	
+}
+.logo, .menu-button{
+	height: 50px;
+}
+.headh{
+	margin: 50px auto 0;
+	/*width: 420px;*/
+	text-align: center;
+}
+.headh h1{
+	color: #7a1602;
+	font-size: 40px;
+	font-family: Lumberjack;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.headh h2{
+	color: #000000;
+	font-size: 20px;
+	font-family: Lumberjack;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.info{
+	text-align: center;
+	margin: 30px auto 30px;
+	font-size: 16px;
+	padding: 0 30px 0 30px;
+}
+.info h2{
+	padding-left: 40px;
+	font-size: 32px;
+}
+
+ 
+ .scrollup{
+width:40px;
+height:40px;
+opacity:.4;
+position:fixed;
+bottom:30px;
+right:30px;
+display:none;
+text-indent:-9999px;
+background: url('./images/icon_top.png') no-repeat center center;
+}
+.scrollup:hover {
+opacity:.6;
+}
+.back-img{
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	
+}
+.over{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background: #e7e8ed;
+	
+}
+.back-img img{
+	width: 100%;
+	min-width: 1200px!important;
+	min-height: 450px!important;
+	
+}
+.head_logo{
+	margin: 7px 0 7px;
+	width: 300px;
+	float: left;
+}
+.main-nav {
+	/*background: #d2d2d2;*/
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+}
+.nav-element {
+	display: inline;
+	float: right;
+	margin: 20px 20px 0px;
+	padding: 10px 10px 0;
+	text-decoration: none;
+}
+.nav-element:hover .nav-active {
+	background: #a0a0a0; 
+}
+.mobile-menu-button {
+	display: none;
+	float: right;
+	margin: 0px 20px 0px;
+	padding: 10px 10px 0;
+	text-decoration: none;
+}
+.mobile-menu {
+	text-align: left;
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	color: #ccc;
+}
+.mobile-menu a p{
+	color: #ccc;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+}
+.mobile-nav-element {
+	padding: 0px;
+	border-bottom: 1px solid #2c2c2c;
+}
+.menu-close {
+	display: none;
+}
+.active, .active:hover{
+	background: #ccc!important;
+}
+.nav-element a{
+	text-decoration: none!important;
+	color: #ccc!important;
+	font-weight: 500;
+	font-size: 16px;
+}
+.nav-active {
+	margin: 15px 0px 0px;
+	height: 5px;
+	background:transparent; /*transparent;*/
+}
+#rez_info, #subcat_info{ 
+	list-style:none;
+	font-size:1.1em; 
+	margin-top:10px 
+}
+
+ul.update li:first-child{ 
+	border-top:#dedede solid 1px;
+	height:30px;
+	text-align:left; 
+ }
+#flash { 
+	margin-top:20px; 
+	text-align:left; 
+}
+#searchresults { 
+	text-align:left; 
+	margin-top:20px; 
+	display:none; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:16px; color:#000; 
+}
+.word { 
+	font-weight:bold; 
+	color:#000000; 
+}
+#search_box  { 
+	padding:4px; 
+	border: solid 1px #ccc; 
+	margin: 5px 10px!important;
+	width:200px;
+	height:26px!important;
+	font-size:16px!important;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+ }
+ :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+select { 
+	padding:4px; 
+	border: solid 1px #ccc; 
+	margin: 5px 10px!important;
+	height:36px!important;
+	font-size:16px!important;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+ }
+ select:active { 
+
+ -moz-border-radius: 6px;
+ -webkit-border-radius: 6px;
+ }
+.search_button {
+background: #ccc;	
+border: solid 1px #ccc; 
+padding: 6px 20px; 
+color:#2c2c2c; 
+font-weight:600; 
+font-size:16px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+ }
+.found { 
+font-weight: bold;
+ font-style: italic; 
+ color: #ff0000; }
+
+ .partner-table, .sub-table, .prices-table {
+	width: 99%;
+	border: none!important;
+	text-align:left;
+}
+.partner-table img {
+	max-width: 200px;
+	max-height: 60px;
+	margin: 0 auto 0;
+}
+.partner-table caption, .sub-table caption, .prices-table th{
+	border: none!important;
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	color: #edba4d;
+	font-size: 20px;
+	padding: 10px;
+	font-weight: 300;
+}
+
+.partner-table th, .sub-table th{
+	text-align: left;
+	border: none!important;
+	background: #454545;
+	/*background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;*/  
+	color: #d2d2d2;
+	font-size: 16px;
+	padding: 10px;
+	font-weight: 400;
+}
+
+.partner-table tr, .prices-table tr{
+	border: none!important;
+	padding-left: 10px;
+}
+.partner-table td:first-child {
+	text-align: center;
+	
+	
+}
+
+.partner-table tr:nth-child(odd), .prices-table tr:nth-child(odd) {
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat; 
+	
+}
+.prices-table th td, .prices-table td{
+	text-align: left;
+	border: none!important;
+	padding: 10px!important;
+	cursor: pointer;
+	
+}
+.prices-table td:first-child {
+	color: #7a1602!important;
+	
+}
+.partner-table td, .partner-table th td {
+	height: 40px;
+	text-align: left;
+	border: none!important;
+	padding: 10px!important;
+	cursor: pointer;
+	
+}
+.partner-table td:first-child {
+	border: none!important;
+	padding: 3px!important;
+	
+}
+.sub-table tr{
+	text-align: left;
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: 300;
+}
+.sub-table td{
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: 300;
+}
+.sub-table td:hover{
+	background: #a0a0a0;
+}
+.title {
+	text-align: center;
+	margin: 20px 10px;
+}
+.title h2{
+	color: #2c2c2c;
+	font-size: 36px;
+	font-family:Lumberjack;
+    font-weight: 400;
+    line-height: 1.45;
+}
+.content{
+	margin: 20px 0px 20px 0px;
+	padding: 0px 10px;
+}
+.image {
+	padding:20px;
+}
+
+.content h3{
+	color: #7a1602;
+	font-size: 28px;
+	font-family: Lumberjack;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.content-text {
+	margin: 0px 20px 20px;
+	
+}
+.step {
+	text-align: center;
+	margin: 10px;
+	padding: 20px;
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;
+	border-radius: 10px;
+	position: relative;
+}
+.step img{
+	margin: 10px auto 10px;
+	border-radius: 10px;
+}
+.step h4{
+	font-size: 18px;
+	color: #7a1602!important;	
+}
+.step a {
+	color: #333!important;
+	text-decoration: none!important;
+}
+.links a, .contacts a{
+	color: #bababa!important;
+	text-decoration: none!important;
+}
+.step a:hover{
+	color: #333;
+}
+.contacts {
+	margin: 20px 0px 20px;
+}
+.contacts p{
+	color: #bababa;
+}
+.links {
+	margin: 40px 0px 20px;
+}
+#footer img {
+	margin: 15px auto 20px;
+}
+.links a:hover, .contacts a:hover {
+	color: #595959!important;
+}
+#step_1:hover {
+	background: #bcbcbc;
+}
+.steps{
+	margin: 0 auto 0;
+	text-align: center;
+	
+}
+#steps {
+	padding-bottom: 50px;
+}
+#steps, .over, #prices{
+	background: url(http://blackcard.by/images/bg-light-4863.png) repeat;
+}
+.plus:before {
+	content: "⊞ ";
+}
+.minus:before {
+	content: "⊟ "!important;
+}
+.visi {
+	display: table!important;
+	width: 100%;
+	
+}
+.gal {
+	color: #edba4d;
+	font-size: 33px;
+	line-height: 36px;
+	vertical-align: bottom;
+}
+.advant {
+	padding: 0 auto 0;
+}
+.advant h4{
+	color: #ccc!important;
+	font-size: 18px;
+	font-weight:500;
+	line-height: 36px;
+	vertical-align: text-top;
+}
+#about {
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat; 
+	/*background: #c2c2c2;*/
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#prices {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+#footer  {
+	/*background: #c2c2c2;*/
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	padding: 50px 0 30px;
+	margin-top: 30px;
+}
+#partner-top{
+	/*padding-top: 50px;*/
+} 
+#seach {
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat; 
+}
+.dot {
+	color: #b0904c;
+}
+.copyr {
+	background: #202020!important; 
+	padding: 10px 10px 10px 50px; 
+	margin: 0px; 
+	color: #ccc;
+}
+#dev {
+	margin: 0px 40px 0px 10px;
+}
+#sot {
+	margin: 0px 10px 0px 20px;
+}
+#vyg {
+	margin: 0px 40px 0px 10px;
+}
+#serv {
+	margin: 0px 10px 0px 40px;
+}
+#sys {
+	margin: 0px 40px 0px 10px;
+}
+.wrap {
+	overflow: hidden;
+	border-radius: 15px;
+}
+.top_wrap {
+	overflow: hidden;
+	border-radius: 0px;
+}
+#partner-info {
+	margin-bottom: 50px;
+}
+.partner-contact {
+	padding: 30px 20px 20px;
+}
+.partner-contact h4{
+	font-size: 18px;
+	font-weight: 600;
+}
+.partner-contact a,
+ .partner-contact a:active,
+ .partner-contact a:focus {
+	color: #7a1602;
+	text-decoration: none;
+}
+.partner-contact a:hover{
+	color: red;
+	text-decoration: none;
+}
+.partner-title {
+	padding: 10px 30px 10px;
+}
+.partner-post {
+	padding: 20px 30px 20px;
+}
+.partner-title h1{
+	color: #2d2d2d;
+	font-size: 40px;
+	font-family: Lumberjack;
+    font-weight: 600;
+    line-height: 1.0;
+}
+.discont {
+	color: #7a1602;
+	font-weight: 600;
+	font-size: 18px;
+}
+.discont-box {
+	max-height: 167px;
+	max-width: 300px;
+	margin: 30px 0 20px;
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+}
+.persents {
+	position: absolute;
+	left: 5%;
+	top: 5%;
+}
+.persents p{
+	color: #edba4d;
+	font-size: 50px;
+	font-family: Lumberjack;
+    font-weight: 600;
+    line-height: 1.0;
+}
+li {
+	color: #000000;
+    font-size: 16px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+#map_canvas {
+	height: 660px;
+}
+.partner-dot {
+	padding: 10px;
+	margin-top:20px;
+	border-radius: 10px;
+	background: #b2b2b2;
+	position: relative;
+	cursor: pointer;	
+}
+.partner-dot:hover {
+	background: #9a9a9a;
+}
+.partner-dot p{
+	font-size: 14px;
+	line-height: 16px;
+}
+.marker {
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	display: none;
+}
+.visi-marker {
+	display: block;
+}
+.unvisi-marker, .unvisi {
+	display: none;
+}
+.big-card {
+	width: 100%;
+	
+	
+}
+.big-card img{
+	width: 400px;
+	margin: 30px auto 30px;
+	
+}
+.dn {
+	display: none;
+}
+.sm-big {
+	text-align:center;
+	transition: all 300ms ease-out 0s;
+	-webkit-transition: all 300ms ease-out 0s;
+	cursor: pointer;
+}
+.sm-big:hover  {
+	text-align:center;
+	transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	-ms-transform: scale(1.2, 1.2);
+}
+#why {
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	padding: 50px 0;
+}
+.open-menu {
+	position: absolute;
+	display: block;
+	
+}
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}
+#dots-partner {
+	min-height: 660px;
+}
+	
+
+
+
+@media only screen and (max-width: 995px) {
+.mobile-menu-button {
+	display: block;
+	float: right;
+	margin: 0px 10px 0px;
+	padding: 10px 0px 10px;
+	text-decoration: none;
+	
+}
+.pc-nav {
+	display: none;
+}
+.main-nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 9999;
+}
+#slider, #partner-top, #terms, #program {
+	margin-top: 70px!important;
+}
+.sticky {
+  position: relative!important;
+	z-index: 999;
+}
+.stop {
+  position: relative;
+	z-index: 999;
+}
+#dots-partner {
+	min-height: 0px;
+}
+
+ }
+ @media only screen and (max-width: 440px) {
+.logo, .menu-button{
+	height: 30px;
+} 
+.head_logo {
+    width: 190px;
+}
+
+#slider, #partner-top, #terms, #program  {
+	margin-top: 50px!important;
+}
+.mobile-menu {
+	top: 50px;	 
+ }
+ .big-card img{
+	width: 300px;
+
+ }
+ .content-text {
+    margin: 20px 20px 20px;
+}
+
+.contacts {
+	position: relative;
+	text-align: center;
+}
+.prices-table tr th {
+	font-size: 12px;
+}
+.prices-table th td, .prices-table td {
+    text-align: left;
+    border: none!important;
+    padding: 10px 5px 10px!important;
+    cursor: pointer;
+}
+
+ }
+ @media only screen and (min-width: 1367px) and (max-width: 1920px) {
+	 
+.over {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    background: #e7e8ed;
+}
+	
+ }
+
+.header-logo {
+
+}

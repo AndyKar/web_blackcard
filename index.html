@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8">
+		<title>Black Card</title>
+		<link href="http://blackcard.by/favicon.png" rel="shortcut icon" type="image/png">
+		<link href="http://blackcard.by/style.css" rel="stylesheet">
+		<link href="http://blackcard.by/css/bootstrap.css" rel="stylesheet">
+		<link href="http://blackcard.by/css/animate.css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/jquery-2.1.0.min.js"></script>
+		<script src="http://blackcard.by/js/wow.js"></script>
+		<script src="http://blackcard.by/js/jquery.viewportchecker.min.js"></script>
+		
+	
+	</head>
+		<script>
+		wow = new WOW({
+		boxClass: 'wow',
+		animateClass: 'animated',
+		offset: 200
+});
+		new WOW().init();
+		</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+<script>
+	$(document).ready(function() {
+ 
+ 
+   $("a.topLink").click(function() {
+      $("html, body").animate({
+         scrollTop: $($(this).attr("href")).offset().top + "px"
+      }, {
+         duration: 1000,
+         easing: "swing"
+      });
+      return false;
+   });
+	
+	$("#menu-button").click(function() {
+		$("div.mobile-menu").toggleClass("open-menu");
+      return false;
+   });
+ 
+});
+	</script>
+
+<body>
+	<header>
+		<div class="main-nav">
+			<div class="container">
+				<div class="header-logo">
+					<div class="head_logo">
+						<a href="http://blackcard.by">
+							<img class="logo" src="./images/black_card_logo.png"  alt="" title="" />
+						</a>
+					</div>	
+				</div>
+				<div class="navigation">
+					<nav>
+						<div class="mobile-menu-button">
+							<img id="menu-button" class="menu-button" src="http://blackcard.by/images/menu.png" height="50" alt="" title="" />
+						</div>
+						<div  class="mobile-menu menu-close">
+							<a href="#">
+							<div class="mobile-nav-element">
+								<p>Главная</p>
+							</div>
+							</a>
+							<a href="http://blackcard.by/partners/">
+							<div class="mobile-nav-element">
+								<p>Партнеры</p>
+							</div>
+							</a>
+							<a class="topLink" href="#prices">
+							<div class="mobile-nav-element">
+								<p>Цены</p>
+							</div>
+							</a>
+							<a class="topLink" href="#footer">
+							<div class="mobile-nav-element">
+								<p>Контакты</p>
+							</div>
+							</a>
+						</div>
+						<div id="pc-nav" class="pc-nav">
+							<div class="nav-element">
+								<a class="topLink" href="#footer">Контакты</a>
+								<div class="nav-active">
+								</div>
+							</div>
+							<div class="nav-element">
+								<a class="topLink" href="#prices">Цены</a>
+								<div class="nav-active">
+								</div>
+								
+							</div>
+							<div class="nav-element">
+								<a href="http://blackcard.by/partners/">Партнеры</a>
+								<div class="nav-active">
+								</div>
+							</div>
+							<div class="nav-element">
+								<a href="#">Главная</a>
+								<div class="nav-active active">
+								</div>
+							</div>
+						<div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="slider">
+		<div class="head">
+				<div class="over">
+					<div class="back-img wow fadeIn" data-wow-duration="2.0s" data-wow-delay="0.0s">
+						<img class="" src="./images/blackcard_2.jpg" alt="" title="" />
+					</div>
+				
+					<div class="col-md-6 col-sm-12 pad0">
+						<div class="headh wow fadeIn" data-wow-duration="2.0s" data-wow-delay="0.5s">
+							<h1>
+								Единая дисконтная система
+							</h1>
+							<p>уникальное сообщество продавцов и покупателей </p>
+						</div>
+						<div class="big-card wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="2.0s">
+							<img class="img-card sm-big" src="./images/blackcard_card.png" alt="" title="" />
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 pad0">	
+					</div>
+				</div>
+		</div>
+	</section>
+	<section id="steps">
+		<div class="container">
+			<div class="title col-md-12 col-sm-12 pad0">
+			<h2>Экономь красиво!</h2>
+			</div>
+			<div class="steps">
+			<div class="content col-md-4 col-sm-12 pad0">
+				<div id="step_1" class="step" >
+					<a href="http://blackcard.by/partners/">
+						<div class="wrap">
+							<img class="img-responsive sm-big" src="./images/step_1.jpg" alt="" title="" />
+						</div>
+						<h4>Выберите магазин, компанию или ресторан</h4>
+					</a>
+				</div>		
+			</div>
+			<div class="content col-md-4 col-sm-12 pad0">
+				<div class="step">
+					<div class="wrap">
+						<img class="img-responsive sm-big" src="./images/step_2.jpg" alt="" title="" />
+					</div>
+					<h4>Воспользуйтесь картой при расчёте</br>&nbsp;</h4>	
+				</div>
+			</div>
+			<div class="content col-md-4 col-sm-12 pad0">
+				<div class="step">
+					<div class="wrap">
+						<img class="img-responsive sm-big" src="./images/step_3.jpg" alt="" title="" />
+					</div>
+					<h4>Получите удовольствие от скидки</br>&nbsp;</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="why">
+		<div class="container">
+		<div class="title col-md-12 col-sm-12 pad0">
+			<h3 style="margin: 20px 0 40px; color: #edba4d!important;" >Почему BLACK CARD?</h3>
+			</div>
+			<div class="col-md-7 col-sm-12 pad0">
+				<img class="img-responsive" src="./images/why_blackcard.png" alt="" title="" />
+			</div>
+			<div class="content col-md-5 col-sm-12 pad0">
+				<div class="advant">
+					<div class="content-text">
+						<h4><span class="gal">☑</span>&nbsp;&nbsp; BLACK CARD – это универсальность</h4>
+						<h4><span class="gal">☑</span>&nbsp;&nbsp; BLACK CARD – это удобство в использовании</h4>
+						<h4><span class="gal">☑</span>&nbsp;&nbsp; BLACK CARD – это имидж</h4>
+						<h4><span class="gal">☑</span>&nbsp;&nbsp; BLACK CARD – это стильно</h4>
+						<h4><span class="gal">☑</span>&nbsp;&nbsp; BLACK CARD – это выгодно</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	</section>
+	<section id="about">
+		<div class="container">
+			<div class="title col-md-12 col-sm-12 pad0">
+			<h2>О Компании</h2>
+			</div>
+			<div class="image col-md-5 col-sm-12 pad0">
+				<div id="dev" class="wrap">
+					<img  class="img-responsive sm-big" src="./images/karta_devushka_pokupki.jpg" alt="" title="" />
+				</div>
+			</div>
+			<div class="content col-md-7 col-sm-12 pad0">
+				<div class="content-text">
+					<p>Единая дисконтная система BLACK CARD – это уникальное сообщество продавцов и покупателей на взаимовыгодных условиях.</p>
+					<h3>BLACK CARD одна единственная.</h3>
+					<p>Выгода от использования единой дисконтной карты BLACK CARD очевидна. Все мы являемся покупателями. Не важно, будут ли это продукты питания, канцтовары, одежда, техника или услуги парикмахера, косметолога, автомойки... Каждому из нас хочется, чтобы покупка была нужной, а услуга качественной, и если при этом мы получаем скидку, то такая покупка становится еще и приятной.
+					Больше не нужно носить с собой кипу карточек, стоя в очереди и ища нужную, просто воспользуйтесь единой дисконтной картой BLACK CARD в магазине или салоне партнера системы.
+					И теперь, когда вы видите наклейку BLACK CARD на двери или витрине магазина, вы всегда знаете, что вас там ждут и обязательно на выгодных условиях предложат товар или услугу со скидкой.
+					</p>
+				</div>
+			</div>
+			
+			<div class="content col-md-7 col-sm-12 pad0">
+				<div class="content-text">
+					<h3>Как это работает?<h3>
+					<p>
+					Продавцы (партнеры ООО «БлэкКард»), создают выгодную дисконтную политику для клиентов (держатели дисконтной карты BLACK CARD),
+					клиенты, в свою очередь, получают возможность тратить меньше при покупке товаров или приобретать больше при тех же затратах,
+					повышая покупательский спрос на услуги и товары продавца.
+					</p>
+				</div>
+			</div>
+			<div class="image col-md-5 col-sm-12 pad0">
+				<div id="sot" class="wrap">
+					<img class="img-responsive sm-big" src="./images/sotrudnichestvo.jpg" alt="" title="" />
+				</div>
+			</div>
+			
+			<div class="image col-md-5 col-sm-12 pad0">
+				<div id="vyg" class="wrap">
+					<img class="img-responsive sm-big" src="./images/vygodno_vsem.jpg" alt="" title="" />
+				</div>
+			</div>
+			<div class="content col-md-7 col-sm-12 pad0">
+				<div class="content-text">
+					<h3>Кому это выгодно?</h3>
+					<p>
+					Выгоду получают все без исключения. Клиенты приобретают услуги и товары на выгодных для себя условиях.
+					Продавцы, за счет выгодных предложений, увеличивают товарооборот и благодаря поисковой системе внутри
+					единой дисконтной системы BLACK CARD, создают целевую аудиторию. 
+					Клиентам теперь не нужно носить с собой кипу дисконтных карт, дающих скидку только в определенном магазине. 
+					Единая дисконтная карта BLACK CARD позволяет делать покупки со скидкой у всех партнёров ООО «БлэкКард». 
+					Выгодные предложения действуют для каждого держателя карты BLACK CARD.
+					</p>
+				</div>
+			</div>
+			
+			<div class="content col-md-7 col-sm-12 pad0">
+				<div class="content-text">
+					<h3>Наша задача.<h3>
+					<p>
+					Основная наша задача – это создать, по настоящему, выгодную и универсальную систему взаимодействия между всеми 
+					участниками рынка. Для этого мы создаём очень удобные сервисы для наших партнеров и клиентов.
+					</p>
+				</div>
+			</div>
+			<div class="image col-md-5 col-sm-12 pad0">
+				<div id="serv" class="wrap">
+					<img class="img-responsive sm-big" src="./images/god_services.jpg" alt="" title="" />
+				</div>
+			</div>
+			
+			<div class="image col-md-5 col-sm-12 pad0">
+				<div id="sys" class="wrap">
+					<img class="img-responsive sm-big" src="./images/bc_system.jpg" alt="" title="" />
+				</div>
+			</div>
+			<div class="content col-md-7 col-sm-12 pad0">
+				<div class="content-text">
+					<h3>Очень выгодная и удобная BLACK CARD.</h3>
+					<p>
+					Учитывая вышесказанное, мы создали единую дисконтную систему BLACK CARD. Она универсальна. Универсальность ее проявляется в том,
+					что к ней продавец может привязать любой вид скидки, будь то постоянная скидка, скидка зависящая от времени, от суммы покупки.
+					Вы сможете использовать ее везде, где увидите логотип " BLACK CARD ", и при этом ваши скидки и условия для их получения не 
+					ограничиваются чем-то и индивидуальны для каждого магазина.
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section id="prices">
+		<div class="container">
+			<div class="title col-md-12 col-sm-12 pad0">
+			<h2>Цена BLACK CARD</h2>
+			</div>
+			
+			<div class="content col-md-8 col-sm-12 pad0">
+				<table class="prices-table">
+				<tr class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.0s"><th></th><th>BLACK CARD STANDART</th><th>BLACK CARD VIP</th></tr>
+				<tr  class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s"><td>Цена</td><td><b>25 рублей</b></td><td><b>100 рублей</b></td></tr>
+				<tr class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.8s"><td>Срок действия</td><td><b>1 год</b></td><td><b>Неограничен</b></td></tr>
+				<tr class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="1.1s"><td>Идентификатор</td><td><b>Номерной</b></td><td><b>Именной</b></td></tr>
+				<tr class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="1.4s"><td>Дизайн</td><td><b>Стандартный</b></td><td><b>VIP</b></td></tr>
+				</table>
+				
+			</div>
+			<div class="content col-md-4 col-sm-12 pad0">
+				<div class="content-text">
+					<p>
+					Для приобретения <b>BLACK CARD STANDART</b> Вы можете позвонить нам по телефону +375 29 1755477,
+					либо приобрести у одного из наших торговых представителей
+					</p>
+					<p>
+					Для заказа <b>BLACK CARD VIP</b> напишите нам на e-mail: blackcard.by@gmail.com, указав имя,
+					фамилию латиницей и номер телефона для обратной связи.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<footer id="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-12 pad0 contacts">
+				<img class="" src="./images/big_logo.png" height="150" alt="" title="" />
+			</div>
+			<div class="col-md-4 col-sm-12 pad0">
+				<div class="contacts">
+					
+					<p>ООО "БлэкКард"</p>
+					<p>224030, г. Брест, Ул. Воровского 15/1<p>
+					<p>Тел. для клиентов: &nbsp;&nbsp;+375 29 1755477<br/>
+					Тел. для партнёров: &nbsp;&nbsp;+375 29 1755399</p>
+					<p><a href="mailto:blackcard.by@gmail.com">e-mail: blackcard.by@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 pad0">
+				<div class="links">
+					<h4><a class="topLink" href="#about"><span class="dot">&#9899;&nbsp;&nbsp;</span>  О Компании</a></h4>
+					<h4><a href="http://blackcard.by/partners/"><span class="dot">&#9899;&nbsp;&nbsp;</span> Наши партнеры</a></h4>
+					<h4><a href="http://blackcard.by/programm/"><span class="dot">&#9899;&nbsp;&nbsp;</span>  Дисконтная программа</a></h4>
+					<h4><a href="http://blackcard.by/terms/"><span class="dot">&#9899;&nbsp;&nbsp;</span>  Пользовательское соглашение</a></h4>
+				</div>	
+			</div>
+		</div>
+	</footer><!--/footer #footer-->
+	
+			<div class="copyr">
+				<p style="font-size: 12px; color: #626262;">&copy; 2017 Дизайн и разработка сайта  
+				<a style="font-size: 12px; color: #b0904c!important" href="http://inversum.by">Inversum Design</a>
+				</p>
+			</div>
+		
+	
+	
+		<a href="#" class="scrollup">Наверх</a>
+	</body>
+</html>
