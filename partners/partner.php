@@ -17,8 +17,8 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script>
 	$(document).ready(function() {
- 
- 
+
+
    $("a.topLink").click(function() {
       $("html, body").animate({
          scrollTop: $($(this).attr("href")).offset().top + "px"
@@ -28,17 +28,17 @@
       });
       return false;
    });
-	
+
 	$("#menu-button").click(function() {
 		$("div.mobile-menu").toggleClass("open-menu");
       return false;
    });
- 
+
 });
 	</script>
 <script type="text/javascript">
 $(document).ready(function(){
- 
+
 $(window).scroll(function(){
 if ($(this).scrollTop() > 100) {
 $('.scrollup').fadeIn();
@@ -46,12 +46,12 @@ $('.scrollup').fadeIn();
 $('.scrollup').fadeOut();
 }
 });
- 
+
 $('.scrollup').click(function(){
 $("html, body").animate({ scrollTop: 0 }, 600);
 return false;
 });
- 
+
 });
 </script>
 
@@ -65,7 +65,7 @@ return false;
 						<a href="http://blackcard.by">
 							<img class="logo" src="http://blackcard.by/images/black_card_logo.png"  alt="" title="" />
 						</a>
-					</div>	
+					</div>
 				</div>
 				<div class="navigation">
 					<nav>
@@ -104,7 +104,7 @@ return false;
 								<a href="http://blackcard.by/#prices">Цены</a>
 								<div class="nav-active">
 								</div>
-								
+
 							</div>
 							<div class="nav-element">
 								<a href="http://blackcard.by/partners/">Партнеры</a>
@@ -122,7 +122,7 @@ return false;
 			</div>
 		</div>
 	</header>
-	
+
 
 
 	<section id="partner-top">
@@ -147,7 +147,7 @@ return false;
 					<!--<div class="partner-contact">
 						<img class="img-responsive" src="http://blackcard.by/partners-img/<?php echo $logo; ?>" alt="" title="" />
 					</div>-->
-				
+
 					<div class="partner-contact">
 					<h4><?php echo $ur_name;?></h4>
 					<p><?php echo $region;?>, <?php echo $ur_adress;?>
@@ -187,7 +187,7 @@ return false;
 			</div>
 			<div class="col-md-4 col-sm-6 pad0">
 				<div class="contacts">
-					
+
 					<p>ООО "БлэкКард"</p>
 					<p>224030, г. Брест, Ул. Воровского 15/1<p>
 					<p>Тел. для клиентов: &nbsp;&nbsp;+375 29 1755477<br/>
@@ -201,12 +201,12 @@ return false;
 					<h4><a href="http://blackcard.by/partners/"><span class="dot">&#9899;&nbsp;&nbsp;</span> Наши партнеры</a></h4>
 					<h4><a href="http://blackcard.by/programm/"><span class="dot">&#9899;&nbsp;&nbsp;</span>  Дисконтная программа</a></h4>
 					<h4><a href="http://blackcard.by/terms/"><span class="dot">&#9899;&nbsp;&nbsp;</span>  Пользовательское соглашение</a></h4>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</footer><!--/footer #footer-->
 	<div class="copyr">
-				<p style="font-size: 12px; color: #626262;">&copy; 2017 Дизайн и разработка сайта  
+				<p style="font-size: 12px; color: #626262;">&copy; 2017 Дизайн и разработка сайта
 				<a style="font-size: 12px; color: #b0904c!important" href="http://inversum.by">Inversum Design</a>
 				</p>
 			</div>
@@ -223,7 +223,7 @@ function Ascroll() {
     var Sa = getComputedStyle(a, ''), s = '';
     for (var i = 0; i < Sa.length; i++) {
       if (Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
-        s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
+        s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; ';
       }
     }
     b = document.createElement('div');
@@ -252,11 +252,11 @@ function Ascroll() {
     b.style.top = '';
   }
   window.addEventListener('resize', function() {
-    a.children[0].style.width = getComputedStyle(a, '').width
+    a.children[0].style.width = getComputedStyle(a, '').width;
   }, false);
 }
 		}
-})()
+})();
 </script>
 </body>
 </html>
