@@ -1,21 +1,21 @@
 /*
-  Theme Name: 
-  Theme URI: 
-  Version: 
-  Description: 
-  Author: 
-  Author URI: 
+  Theme Name:
+  Theme URI:
+  Version:
+  Description:
+  Author:
+  Author URI:
   Created Date: 14/07/2017
- 
+
 */
 @font-face {
-    font-family: OpenSans; 
+    font-family: OpenSans;
     src: url(./fonts/OpenSans.ttf);
 }
 @font-face {
-    font-family: Lumberjack; 
+    font-family: Lumberjack;
     src: url(./fonts/Lumberjack.ttf);
-	
+
 }
 
 
@@ -38,7 +38,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  
+
 }
 body h3{
 	color: #7a1602;
@@ -56,7 +56,7 @@ body p{
 }
 h3{
 	font-family: Open Sans, sans-serif;
-	
+
 
 }
 tr, th, td{
@@ -66,7 +66,7 @@ tr, th, td{
   font-size: 100%;
   font: inherit;
   vertical-align: middle;
-  
+
 }
 div{
 	/*border:1px solid red!important;*/
@@ -81,7 +81,7 @@ body {
 	font-family: OpenSans, sans-serif;
 	background: url(http://blackcard.by/images/bg-light-4863.png) repeat;
 	/*background: #e7e8ed!important;*/
-  
+
 }
 .wrapper {
   display: table;
@@ -102,7 +102,7 @@ body {
 }
 .img-center{
 	margin: 0px auto 0;
-	
+
 }
 .logo, .menu-button{
 	height: 50px;
@@ -137,7 +137,7 @@ body {
 	font-size: 32px;
 }
 
- 
+
  .scrollup{
 width:40px;
 height:40px;
@@ -156,7 +156,7 @@ opacity:.6;
 	overflow: hidden;
 	position: absolute;
 	top: 0px;
-	
+
 }
 .over{
 	position: relative;
@@ -164,13 +164,13 @@ opacity:.6;
 	height: 500px;
 	overflow: hidden;
 	background: #e7e8ed;
-	
+
 }
 .back-img img{
 	width: 100%;
 	min-width: 1200px!important;
 	min-height: 450px!important;
-	
+
 }
 .head_logo{
 	margin: 7px 0 7px;
@@ -179,7 +179,7 @@ opacity:.6;
 }
 .main-nav {
 	/*background: #d2d2d2;*/
-	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat;
 }
 .nav-element {
 	display: inline;
@@ -189,7 +189,7 @@ opacity:.6;
 	text-decoration: none;
 }
 .nav-element:hover .nav-active {
-	background: #a0a0a0; 
+	background: #a0a0a0;
 }
 .mobile-menu-button {
 	display: none;
@@ -236,35 +236,35 @@ opacity:.6;
 	height: 5px;
 	background:transparent; /*transparent;*/
 }
-#rez_info, #subcat_info{ 
+#rez_info, #subcat_info{
 	list-style:none;
-	font-size:1.1em; 
-	margin-top:10px 
+	font-size:1.1em;
+	margin-top:10px
 }
 
-ul.update li:first-child{ 
+ul.update li:first-child{
 	border-top:#dedede solid 1px;
 	height:30px;
-	text-align:left; 
+	text-align:left;
  }
-#flash { 
-	margin-top:20px; 
-	text-align:left; 
+#flash {
+	margin-top:20px;
+	text-align:left;
 }
-#searchresults { 
-	text-align:left; 
-	margin-top:20px; 
-	display:none; 
-	font-family:Arial, Helvetica, sans-serif; 
-	font-size:16px; color:#000; 
+#searchresults {
+	text-align:left;
+	margin-top:20px;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px; color:#000;
 }
-.word { 
-	font-weight:bold; 
-	color:#000000; 
+.word {
+	font-weight:bold;
+	color:#000000;
 }
-#search_box  { 
-	padding:4px; 
-	border: solid 1px #ccc; 
+#search_box  {
+	padding:4px;
+	border: solid 1px #ccc;
 	margin: 5px 10px!important;
 	width:200px;
 	height:26px!important;
@@ -276,33 +276,33 @@ ul.update li:first-child{
     outline: 0;
     outline-offset: 0;
 }
-select { 
-	padding:4px; 
-	border: solid 1px #ccc; 
+select {
+	padding:4px;
+	border: solid 1px #ccc;
 	margin: 5px 10px!important;
 	height:36px!important;
 	font-size:16px!important;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
  }
- select:active { 
+ select:active {
 
  -moz-border-radius: 6px;
  -webkit-border-radius: 6px;
  }
 .search_button {
-background: #ccc;	
-border: solid 1px #ccc; 
-padding: 6px 20px; 
-color:#2c2c2c; 
-font-weight:600; 
+background: #ccc;
+border: solid 1px #ccc;
+padding: 6px 20px;
+color:#2c2c2c;
+font-weight:600;
 font-size:16px;
 -moz-border-radius: 6px;
 -webkit-border-radius: 6px;
  }
-.found { 
+.found {
 font-weight: bold;
- font-style: italic; 
+ font-style: italic;
  color: #ff0000; }
 
  .partner-table, .sub-table, .prices-table {
@@ -317,7 +317,7 @@ font-weight: bold;
 }
 .partner-table caption, .sub-table caption, .prices-table th{
 	border: none!important;
-	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat;
 	color: #edba4d;
 	font-size: 20px;
 	padding: 10px;
@@ -328,11 +328,16 @@ font-weight: bold;
 	text-align: left;
 	border: none!important;
 	background: #454545;
-	/*background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;*/  
+	/*background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;*/
 	color: #d2d2d2;
 	font-size: 16px;
 	padding: 10px;
 	font-weight: 400;
+}
+.partner-table tr:hover th{
+	background: #454545!important;
+	/*background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;*/
+	color: #d2d2d2;
 }
 
 .partner-table tr, .prices-table tr{
@@ -341,24 +346,24 @@ font-weight: bold;
 }
 .partner-table td:first-child {
 	text-align: center;
-	
-	
+
+
 }
 
 .partner-table tr:nth-child(odd), .prices-table tr:nth-child(odd) {
-	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat; 
-	
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;
+
 }
 .prices-table th td, .prices-table td{
 	text-align: left;
 	border: none!important;
 	padding: 10px!important;
 	cursor: pointer;
-	
+
 }
 .prices-table td:first-child {
 	color: #7a1602!important;
-	
+
 }
 .partner-table td, .partner-table th td {
 	height: 40px;
@@ -366,12 +371,12 @@ font-weight: bold;
 	border: none!important;
 	padding: 10px!important;
 	cursor: pointer;
-	
+
 }
 .partner-table td:first-child {
 	border: none!important;
 	padding: 3px!important;
-	
+
 }
 .sub-table tr{
 	text-align: left;
@@ -413,10 +418,11 @@ font-weight: bold;
 	font-family: Lumberjack;
     font-weight: 400;
     line-height: 1.15;
+    margin: 10px 0px;
 }
 .content-text {
 	margin: 0px 20px 20px;
-	
+
 }
 .step {
 	text-align: center;
@@ -432,7 +438,7 @@ font-weight: bold;
 }
 .step h4{
 	font-size: 18px;
-	color: #7a1602!important;	
+	color: #7a1602!important;
 }
 .step a {
 	color: #333!important;
@@ -466,7 +472,7 @@ font-weight: bold;
 .steps{
 	margin: 0 auto 0;
 	text-align: center;
-	
+
 }
 #steps {
 	padding-bottom: 50px;
@@ -483,7 +489,7 @@ font-weight: bold;
 .visi {
 	display: table!important;
 	width: 100%;
-	
+
 }
 .gal {
 	color: #edba4d;
@@ -502,7 +508,7 @@ font-weight: bold;
 	vertical-align: text-top;
 }
 #about {
-	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat; 
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;
 	/*background: #c2c2c2;*/
 	padding-bottom: 50px;
 	padding-top: 50px;
@@ -513,33 +519,36 @@ font-weight: bold;
 }
 #footer  {
 	/*background: #c2c2c2;*/
-	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat;
 	padding: 50px 0 30px;
 	margin-top: 30px;
 }
 #partner-top{
 	/*padding-top: 50px;*/
-} 
+}
 #seach {
-	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat; 
+	background: url(http://blackcard.by/images/bg-lightl-888.jpg) repeat;
 }
 .dot {
 	color: #b0904c;
 }
 .copyr {
-	background: #202020!important; 
-	padding: 10px 10px 10px 50px; 
-	margin: 0px; 
+	background: #202020!important;
+	padding: 10px 10px 10px 50px;
+	margin: 0px;
 	color: #ccc;
 }
 #dev {
 	margin: 0px 40px 0px 10px;
+
 }
 #sot {
-	margin: 0px 10px 0px 20px;
+	margin: 10px 10px 0px 20px;
+
 }
 #vyg {
 	margin: 0px 40px 0px 10px;
+
 }
 #serv {
 	margin: 0px 10px 0px 40px;
@@ -597,7 +606,7 @@ font-weight: bold;
 	max-height: 167px;
 	max-width: 300px;
 	margin: 30px 0 20px;
-	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat;
 	overflow: hidden;
 	border-radius: 10px;
 	position: relative;
@@ -630,7 +639,7 @@ li {
 	border-radius: 10px;
 	background: #b2b2b2;
 	position: relative;
-	cursor: pointer;	
+	cursor: pointer;
 }
 .partner-dot:hover {
 	background: #9a9a9a;
@@ -653,13 +662,13 @@ li {
 }
 .big-card {
 	width: 100%;
-	
-	
+
+
 }
 .big-card img{
 	width: 400px;
 	margin: 30px auto 30px;
-	
+
 }
 .dn {
 	display: none;
@@ -677,13 +686,13 @@ li {
 	-ms-transform: scale(1.2, 1.2);
 }
 #why {
-	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat; 
+	background: url(http://blackcard.by/images/bg-black-noise-48763.png) repeat;
 	padding: 50px 0;
 }
 .open-menu {
 	position: absolute;
 	display: block;
-	
+
 }
 .sticky {
   position: fixed;
@@ -696,7 +705,7 @@ li {
 #dots-partner {
 	min-height: 660px;
 }
-	
+
 
 
 
@@ -707,7 +716,7 @@ li {
 	margin: 0px 10px 0px;
 	padding: 10px 0px 10px;
 	text-decoration: none;
-	
+
 }
 .pc-nav {
 	display: none;
@@ -738,7 +747,7 @@ li {
  @media only screen and (max-width: 440px) {
 .logo, .menu-button{
 	height: 30px;
-} 
+}
 .head_logo {
     width: 190px;
 }
@@ -747,7 +756,7 @@ li {
 	margin-top: 50px!important;
 }
 .mobile-menu {
-	top: 50px;	 
+	top: 50px;
  }
  .big-card img{
 	width: 300px;
@@ -773,7 +782,7 @@ li {
 
  }
  @media only screen and (min-width: 1367px) and (max-width: 1920px) {
-	 
+
 .over {
     position: relative;
     width: 100%;
@@ -781,7 +790,7 @@ li {
     overflow: hidden;
     background: #e7e8ed;
 }
-	
+
  }
 
 .header-logo {
